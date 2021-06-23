@@ -1,0 +1,10 @@
+body {background-color: rgb(56, 133, 196);}
+
+h1 {
+    color: rgb(1, 20, 1);
+    font-family: gill sans;
+    font-size: 400%;
+}
+
+ul.team {list-style-type: none;
+         text-align: center;}
