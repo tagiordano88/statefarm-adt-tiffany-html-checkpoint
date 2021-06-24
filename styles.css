@@ -24,7 +24,7 @@ body {background-color: rgb(7, 173, 7);}
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #c94e06;
+  background-color: #9c4205;
   color: white;
 }
 
@@ -39,11 +39,12 @@ ul.team {list-style-type: circle;}
 table, th, td {
     border: 2px solid black;
     border-collapse: collapse;
+    padding: 1em;
 }
 
 input[type=text], select, textarea {
     width: 95%;
-    padding: 12px;
+    padding: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -62,9 +63,15 @@ input[type=email], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
   }
-  
+  input[type=checkbox], select, textarea {
+    width: 5%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }  
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #058053;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -73,7 +80,7 @@ input[type=email], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #022504;
   }
   
   .container {
