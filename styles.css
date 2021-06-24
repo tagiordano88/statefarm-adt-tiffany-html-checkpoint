@@ -36,13 +36,14 @@ h1 {
 
 ul.team {list-style-type: circle;}
 
+/*Style for the table*/
 table, th, td {
     border: 2px solid black;
     border-collapse: collapse;
     padding: 1em;
     margin: 2em;
 }
-
+/* Style for the form */
 input[type=text], select, textarea {
     width: 95%;
     padding: 16px;
